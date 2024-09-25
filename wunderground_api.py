@@ -14,9 +14,9 @@ native = False  # if you're using Python in Jupyter, Spyder or Anaconda environm
 if native is False:
     nest_asyncio.apply() # hot fix taken from https://medium.com/@vyshali.enukonda/how-to-get-around-runtimeerror-this-event-loop-is-already-running-3f26f67e762e
 
-start = '2021-1-1'
-end = '2021-1-5'
-station = 'KILCHICA692'
+start = '2024-9-23'
+end = '2024-9-24'
+station = 'IDUBLI100'
 
 start_dt = datetime.strptime(start, '%Y-%m-%d')
 end_dt = datetime.strptime(end, '%Y-%m-%d')
